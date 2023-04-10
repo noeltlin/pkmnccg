@@ -1,0 +1,55 @@
+.gridContainer {
+    display: grid;
+    gap: 0.4rem 0.6rem;
+
+    grid-template-columns: repeat(3, 28rem);
+
+    width: 85rem;
+    max-height: auto;
+    margin: 4rem auto 0;
+}
+
+.gridCell {
+    display: grid;
+    justify-items: center;
+
+    width: 28rem;
+    height: 28rem;
+
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.gridCell:hover {
+    background-color: #f0f0f0;
+}
+
+.gridCell h1 {
+    font-family: "Rodin Pro M", sans-serif;
+    font-size: 1.6rem;
+    color: #555;
+    line-height: 0;
+    margin: 2rem 0 0 ;
+}
+
+.gridCell img {
+    width: 14rem;
+    height: 20rem;
+}
+
+.cardQuantity {
+    display: inline-grid;
+    position: absolute;
+    z-index: 1;
+    justify-self: end;
+    justify-items: center;
+
+    width: 2rem;
+    height: 2rem;
+    padding: 0.2rem;
+
+    font-family: "Rodin Pro B", sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #666;
+}

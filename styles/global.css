@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Rodin Pro L";
+    src: url("/fonts/FOT-RodinPro-L.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rodin Pro M";
+    src: url("/fonts/FOT-RodinPro-M.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rodin Pro DB";
+    src: url("/fonts/FOT-RodinPro-DB.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rodin Pro B";
+    src: url("/fonts/FOT-RodinPro-B.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rodin Pro EB";
+    src: url("/fonts/FOT-RodinPro-EB.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rodin Pro UB";
+    src: url("/fonts/FOT-RodinPro-UB.otf") format("opentype");
+}
+
+:root {
+    font-size: 10px;
+    font-family: "Rodin Pro L", sans-serif;
+
+    color: #111;
+    background-image: url("/bg.svg");
+    background-color: #eee;
+}
+
+a {
+    color: #a1a1a1;    
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Rodin Pro DB", sans-serif;
+    color: inherit;
+}
