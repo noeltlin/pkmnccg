@@ -9,13 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next-auth/mongodb-adapter": "^1.1.3",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
+    "argon2": "^0.30.3",
     "eslint": "8.38.0",
+    "js-cookie": "^2.2.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.1.0",
     "next": "^13.3.0",
+    "next-auth": "^4.22.1",
+    "nookies": "^2.5.2",
+    "pokemontcgsdk": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sort-by": "^0.0.2",
     "typescript": "5.0.4"
   },
   "devDependencies": {

@@ -1,0 +1,31 @@
+.cardContainer div {
+    display: grid;
+    grid-template-columns: repeat(7, 8rem);
+    /* fuck around w/rows for button area */
+    justify-content: start;
+    margin: auto;
+}
+
+.cardContainer button {
+    justify-self: center;
+    margin: 3rem auto 0;
+    width: 3rem;
+}
+
+.cardContainer .activeCard {
+    width: 20rem;
+    height: 27.5rem;
+    z-index: 0;
+}
+
+.cardContainer .bgCard {
+    width: 16rem;
+    height: 22rem;
+    align-self: center;
+}
+
+.bgCard {
+    width: 16rem;
+    height: 22rem;
+    align-self: center;
+}

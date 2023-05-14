@@ -1,0 +1,47 @@
+.newPackForm {
+    width: 60rem;
+    margin: 1rem 2rem;
+
+    box-sizing: border-box;
+}
+
+.cardGroupContainer {
+    width: inherit;
+    height: 30rem;
+    margin: 0 0 2.2rem;
+    overflow: auto;
+
+    border: 1px solid black;
+}
+
+.cardGroup {
+    padding: 1rem;
+    background-color: #ccc;
+    box-sizing: inherit;
+}
+
+.cardGroupGrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+
+    padding: 1rem 2rem;
+    line-height: 2.6rem;
+
+    box-sizing: inherit;
+}
+
+.cardTypes {
+    border: 0px solid black;
+    box-sizing: inherit;
+}
+
+.cardSubtypes {
+    border: 0px solid black;
+    box-sizing: inherit;
+}
+
+.cardGenerations {
+    border: 0px solid black;
+    box-sizing: inherit;
+}

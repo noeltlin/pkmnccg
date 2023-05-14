@@ -1,0 +1,57 @@
+.card {
+    display: inline-block;
+
+    width: 14rem;
+    height: 20rem;
+    margin: 0 0.5rem;
+    padding: 5rem 0;
+
+    font-family: "Rodin Pro M", sans-serif;
+    font-size: 1rem;
+
+    text-align: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.1rem;
+
+    box-sizing: border-box;
+}
+
+.card p {
+    display: inline-block;
+
+    width: 100%;
+    margin: 0;
+
+    padding: 1rem 0 0.5rem;
+
+    background-color: #fff;
+}
+
+.red {
+    background-color: #e60b00;
+}
+
+.blue {
+    background-color: #00b2eb;
+}
+
+.green {
+    background-color: #009921;
+}
+
+.gold {
+    background-color: #ff9d00;
+}
+
+.silver {
+    background-color: #adada6;
+}
+
+.crystal {
+    background-color: #ffe6f2;
+}
+
+.rainbow {
+    background: linear-gradient(90deg, #e60b00 16.5%, #00b2eb 16.5% 33%, #009921 33% 50%, #ff9d00 50% 66.5%, #adada6 66.5% 83%, #ffe6f2 83% 100%);
+}
